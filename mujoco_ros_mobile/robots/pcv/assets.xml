@@ -1,0 +1,33 @@
+<mujocoinclude>
+
+    <default>
+        <default class="pcv">
+            <material specular="0.5" shininess="0.25"/>
+            <!-- <joint armature="0.1" damping="1" axis="0 0 1" range="-2.8973 2.8973"/> -->
+            <general dyntype="none" biastype="affine" ctrlrange="-2.8973 2.8973" forcerange="-87 87"/>
+            
+            <default class="pcv_visual">
+                <geom type="mesh" contype="0" conaffinity="0" group="2"/>
+            </default>
+            
+            <default class="pcv_collision">
+                <geom type="mesh" group="3"/>
+            </default>
+        </default>
+    </default>
+
+    <compiler angle="radian" autolimits="true" meshdir = "../"/>
+    
+    <asset>
+        <material class="pcv" name="silver" rgba="0.8 0.8 0.8 1"/>
+        <material class="pcv" name="black" rgba="0.1 0.1 0.1 1"/>
+        
+        <!-- Visual meshes -->
+        <mesh name="body_bottom"  file="meshs/body_bottom.stl"/>
+        <mesh name="body_side"    file="meshs/body_side.stl"/>
+        <mesh name="body_top"     file="meshs/body_top.stl"/>
+        <mesh name="wheel_body"   file="meshs/wheel_body.stl"/>
+        <mesh name="wheel_rotate" file="meshs/wheel_rotate.stl"/>
+        
+    </asset>
+</mujocoinclude>

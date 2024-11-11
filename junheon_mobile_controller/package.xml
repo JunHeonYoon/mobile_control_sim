@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>junheon_mobile_controller</name>
+  <version>0.1.0</version>
+  <description>ROS2 package for mobile robot controllers.</description>
+  <maintainer email="yoonjh98@snu.ac.kr">Your Name</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_cmake_python</buildtool_depend>
+
+  <build_depend>Eigen3</build_depend>
+  <build_depend>pybind11</build_depend>
+  
+  <exec_depend>Eigen3</exec_depend>
+  <exec_depend>pybind11</exec_depend>
+  <exec_depend>python3</exec_depend>
+  <exec_depend>ament_cmake_python</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

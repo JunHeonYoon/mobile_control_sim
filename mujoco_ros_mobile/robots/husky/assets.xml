@@ -1,0 +1,35 @@
+<mujocoinclude>
+
+    <default>
+        <default class="husky">
+            <material specular="0.5" shininess="0.25"/>
+            <!-- <joint armature="0.1" damping="1" axis="0 0 1" range="-2.8973 2.8973"/> -->
+            <general dyntype="none" biastype="affine" ctrlrange="-2.8973 2.8973" forcerange="-87 87"/>
+            
+            <default class="husky_visual">
+                <geom type="mesh" contype="0" conaffinity="0" group="2"/>
+            </default>
+            
+            <default class="husky_collision">
+                <geom type="mesh" group="3"/>
+            </default>
+        </default>
+    </default>
+
+    <compiler angle="radian" autolimits="true" meshdir = "../"/>
+    
+    <asset>
+        <material class="husky" name="orange" rgba="0.996 0.941 0.412 1.0"/>
+        <material class="husky" name="black" rgba="0.231 0.231 0.231 1.0"/>
+        
+        <!-- Visual meshes -->
+        <mesh name="base_link"     file="meshs/base_link.stl"/>
+        <mesh name="wheel"         file="meshs/wheel.stl"/>
+        <mesh name="bumper"        file="meshs/bumper.stl"/>
+        <mesh name="top_chassis"   file="meshs/top_chassis.stl"/>
+        <mesh name="top_structure" file="meshs/roas_dyros.STL"/>
+        <mesh name="top_plate"     file="meshs/top_plate.stl"/>
+        <mesh name="user_rail"     file="meshs/user_rail.stl"/>
+        
+    </asset>
+</mujocoinclude>

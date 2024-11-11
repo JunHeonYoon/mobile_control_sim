@@ -1,0 +1,13 @@
+<mujocoinclude>
+
+    <compiler angle="radian" autolimits="true" meshdir = "../"/>
+    
+    <asset>
+        <mesh name="summit_xls_chassis"           file="meshes/bases/xls/summit_xls_chassis.stl" />
+        <mesh name="summit_xls_chapas_inox_tapas" file="meshes/bases/xls/summit_xls_chapas_inox_tapas.stl" />
+        <mesh name="robotnik_logo_chasis"         file="meshes/bases/xls/robotnik_logo_chasis.stl" />
+        <mesh name="summit_xls_omni_wheel_1"      file="meshes/wheels/omni_wheel_1.stl" />
+        <mesh name="summit_xls_omni_wheel_2"      file="meshes/wheels/omni_wheel_2.stl" />
+        <mesh name="structure_hokuyo"             file="meshes/structures/structure_hokuyo.stl" />
+    </asset>
+</mujocoinclude>

@@ -1,0 +1,11 @@
+<mujoco model="pcv">
+    <include file="assets/assets.xml"/>
+    <include file="pcv/assets.xml"/>
+    
+    <worldbody>
+        <include file="assets/basic_scene.xml" />    
+        <include file="pcv/pcv.urdf.xml" />    
+    </worldbody>
+
+    <include file = 'pcv/actuator.xml' />
+</mujoco>
